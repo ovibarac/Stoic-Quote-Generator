@@ -1,0 +1,54 @@
+
+body{
+  font-family: "Raleway", sans-serif;
+  
+  #app{
+    
+    #wrapper{
+      background-color: white;
+      margin: auto;
+      border-radius: 5px;
+      margin-top: 100px;
+    
+      #quote-box{
+        text-align: center;
+        padding: 10px;
+        
+        #quote-text{
+          padding-bottom: 30px;
+          padding-top: 30px;
+          padding-left: 15px;
+          padding-right: 15px;
+
+          i{
+            font-size: 1.8em;
+            margin-right: 0.4em;
+          }
+
+          #text{
+            font-size: 1.7em;
+          }
+        }
+        #author{
+          float: right;
+          padding-right: 40px;
+          font-size: 1.1em;
+        }
+
+        #buttons{
+          margin: 40px;
+          padding-bottom: 20px;
+          padding-top: 10px;
+          #new-quote{
+            float: right;
+          }
+
+          #tweet-quote{
+            float: left;
+          }
+       }
+      }
+    }
+  }
+  
+}
